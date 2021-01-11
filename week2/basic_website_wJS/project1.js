@@ -5,15 +5,15 @@ var navmain = document.createElement('nav');
 document.body.append(navmain);
 
 var nav1 = document.createElement('a');
-nav1.textContent = 'Home';
+nav1.textContent = 'Home  ';
 navmain.appendChild(nav1);
 
 var nav2 = document.createElement('a');
-nav2.textContent = 'About';
+nav2.textContent = '  About  ';
 navmain.appendChild(nav2);
 
 var nav3 = document.createElement('a');
-nav3.textContent = 'Contact';
+nav3.textContent = '  Contact';
 navmain.appendChild(nav3);
 
 // h1

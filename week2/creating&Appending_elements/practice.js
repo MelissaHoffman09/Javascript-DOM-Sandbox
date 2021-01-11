@@ -10,7 +10,7 @@ paragraph.textContent = "All of this was created with Javascript";
 document.body.append(paragraph);
 
 // list
-var ol = document.createElement(ol);
+var ol = document.createElement('ol');
 document.body.append(ol);
 
 var list1 = document.createElement("li")
