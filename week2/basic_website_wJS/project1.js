@@ -27,7 +27,7 @@ para.textContent = 'The universe is big and vast. It is beautiful. It is serene 
 document.body.append(para);
 
 // list
-var listNew = document.createElement('ul');
+var listNew = document.createElement('ol');
 document.body.append(listNew);
 
 var list1 = document.createElement('li');
