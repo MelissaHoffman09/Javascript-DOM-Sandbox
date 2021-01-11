@@ -44,5 +44,5 @@ listNew.appendChild(list3);
 
 //footer
 var foot = document.createElement('footer');
-foot.textContent = 'Follow us on Social Media!'
+foot.textContent = 'Follow us to the Moon!'
 document.body.append(foot);
