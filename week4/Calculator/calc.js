@@ -47,7 +47,6 @@ equal.style.marginRight = "20px";
 document.getElementById("sec1").appendChild(equal);
 
 equal.addEventListener("click", function() {
-
 var num1 = document.getElementById("submit1").value;
 var num2 = document.getElementById("submit2").value;
 var eql = Number(num1) + Number(num2);
@@ -105,7 +104,6 @@ equals2.style.marginRight = "20px";
 document.getElementById("sec2").appendChild(equals2);
 
 equals2.addEventListener("click", function() {
-
 var num3 = document.getElementById("submit3").value;
 var num4 = document.getElementById("submit4").value;
 var eql2 = Number(num3) - Number(num4);
@@ -163,7 +161,6 @@ equals3.style.marginRight = "20px";
 document.getElementById("sec3").appendChild(equals3);
 
 equals3.addEventListener("click", function() {
-
 var num5 = document.getElementById("submit5").value;
 var num6 = document.getElementById("submit6").value;
 var eql3 = Number(num5) * Number(num6);
