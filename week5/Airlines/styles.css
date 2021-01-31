@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: lightskyblue;
+}
+
+header {
+    color: rgb(12, 48, 70);
+    box-shadow: 10px 10px 10px rgb(12, 48, 70);
+    margin-top: 2%;
+}
+
+header > h1 {
+    font-size: 65px;
+    text-shadow: 3px 3px 3px white;
+    margin-bottom: 2%;
+}
+
+header > h3 {
+    margin-top: 150px;
+    margin-bottom: 5%;
+}
+
+footer {
+    margin-top: 35px;
+    background-image: url(https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+}
+
+button {
+    font-size: 16px;
+    background-color: whitesmoke;
+    color: rgb(12, 48, 70);
+}

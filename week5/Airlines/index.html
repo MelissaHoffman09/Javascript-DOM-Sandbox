@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airline Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>World Travelers Airline</h1>
+    </header>
+    <h3>Thank you for choosing to travel with us. Your comfort and saftey is our priority.</h3>
+    <br>
+    <h3>Please fill out the form below to book your flight.</h3>
+   <br><br>
+    <form id="form">
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" placeholder="First Name">
+        <br><br>
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastName" placeholder="Last Name">
+        <br><br>
+        <label for="age">Age: </label>
+        <input type="number" name="age" placeholder="Age">
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="Male" id="male"> Male
+        <input type="radio" name="gender" value="Female" id="female"> Female
+        <br><br>
+        Select Location: <select name="location">
+            <option selected disabled> Locations </option>
+            <option value="Japan"> Tokyo, Japan </option>
+            <option value="Hawaii"> Maui, Hawaii </option>
+            <option value="Thailand"> Phuket, Thailand </option>
+        </select>
+        <br><br>
+        <label for="diet">Diet Restrictions: </label>
+        <input class="diet" type="checkbox" name="vegan" value="vegan" id="vegan"> Vegan
+        <input class="diet" type="checkbox" name="pescetarian" value="pescetarian" id="pescetarian"> Pescetarian
+        <input class="diet" type="checkbox" name="allergy" value="allergy" id="allergy"> Top 8 Allergy Free
+        <br><br>
+        <button id="submit"> Submit </button> 
+    </form>
+    <br><br>
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
