@@ -19,7 +19,7 @@ function formAlert() {
         diet.push(document.getElementById("allergy").value);
     }
 
-    alert ("First Name: " + firstName + "\nLast Name: " + lastName + "\nAge: " + age + "\nGender: " + gender + "\nLocation: " + location + "\nDiet Restriction: " + diet + "\nThank you for booking yout flight with World Travelers Airline!");
+    alert ("First Name: " + firstName + "\nLast Name: " + lastName + "\nAge: " + age + "\nGender: " + gender + "\nLocation: " + location + "\nDiet Restriction: " + diet + "\nThank you for booking your flight with World Travelers Airline!");
 
     form.reset();
 };
