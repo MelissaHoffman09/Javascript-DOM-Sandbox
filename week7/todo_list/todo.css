@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    text-align: center;
+    background-color:burlywood;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    margin: 38px;
+    font-size: 25px;
+}
+
+input {
+    border: none;
+    padding: 6px;
+}
+
+#add {
+    margin-bottom: 50px;
+    padding: 5px;
+    background: whitesmoke;
+}
+
+.list {
+    margin-left: 7%;
+    margin-right: 7%;
+    list-style-type: none;
+    text-align: left;
+    padding-left: 5px;
+}
+
+ul li:nth-child(odd) {
+    background: wheat;
+}
+
+ul li:hover {
+    background: wheat;
+}
+
+@media only screen and (min-width: 600px) { 
+
+    header {
+        font-size: 35px;
+    }
+    
+    input {
+        font-size: 22px;
+    }
+    
+    #add {
+        font-size: 22px;
+    }
+    
+    h3 {
+        font-size: 25px;
+    }
+    
+    h5 {
+        font-size: 22px;
+    }
+    
+    #delete {
+        font-size: 22px;
+    }
+    }
+
